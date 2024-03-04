@@ -1,0 +1,99 @@
+
+
+.main_container {
+    height: 82vh;
+    display: flex;
+    padding-left: 10vh;
+    padding-right: 1vh;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+
+}
+
+.left_arrow {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* .left_arrow img{
+    width:90px;
+    height:70px;
+} */
+
+.right_arrow {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.center {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+
+.content_container {
+    height: 30vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.842);
+    border-radius: 20.944px;
+    padding: 2vh;
+    /* vh for this viewport is 398.7px here.  */
+    box-shadow: 2px 2px 6px rgba(18, 15, 15, 0.187);
+}
+
+.content {
+    background: #EDEAE5;
+    height: 26vh;
+    border-radius: 12.974px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content button {
+    /* background: white;
+    height: 10vh;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Chivo Mono', monospace; */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #026770ca;
+    border-radius: 5px;
+    font-family: 'Chivo Mono', monospace;
+
+
+}
+
+.content button:hover {
+    background: #026770f6;
+    transition: 0.1s ease-in;
+}
+
+
+
+p {
+    margin-bottom: 3vh;
+    color:rgba(0, 0, 0, 0.680);
+
+}
+
+h2 {
+    margin-bottom: 1vh;
+    color:rgba(0, 0, 0, 0.780);
+}

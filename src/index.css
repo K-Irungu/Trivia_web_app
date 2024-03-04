@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+    /* This means that the overall font size is reduced from 100%(default of 16px) to 60% of 16px => 9.6px */
+    font-family: 'Chivo Mono', monospace;
+    color: rgba(0, 0, 0, 0.773);
+}
+
+body {
+
+    background: #EDEAE5;
+    font-size: 1.7rem;
+    /* This means that the font-size in the body will be 1.6 times the size of the root element's font size. That is 1.6 x 9.6px*/
+}

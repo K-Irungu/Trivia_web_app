@@ -1,0 +1,32 @@
+.footer_container{
+    height: 9vh;
+    display: flex;
+    flex-direction: column ;
+}
+
+.line{
+    height: 0.15rem;
+    width:90%;
+    background: rgba(0, 0, 0, 0.26);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_container{
+    width:90%;
+    margin: auto;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.680);
+
+
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-right: 1rem;
+}
+
